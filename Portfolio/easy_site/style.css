@@ -1,0 +1,100 @@
+/* пишем стили */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+
+	background-color: #fff;
+}
+
+h1, h2, .copy {
+	font-family: "RedRingLight", sans-serif;
+	font-weight: 100;
+
+}
+button {
+	font-family: "ProximaNovaLight", sans-serif;
+	font-weight: 400;
+
+}
+.clear{
+	clear: both;
+}
+
+input, textarea, button {
+	outline: none; /*в колонку*/
+}
+/* end reset */
+
+/* start header  */
+header{
+	padding-top: 15px;
+	height: 100px;
+
+}
+.logo{
+	text-align: center;
+}
+ /* start banner*/
+ .banner{
+	 height: 650px;
+	 padding-top: 170px;
+	 background: linear-gradient(to top,#ffa8a8, #fcff00);
+ }
+.banner_text, .banner_image{
+	margin: 0 auto;
+	text-align: center;
+}
+.banner_text h1{
+	font-size: 40px;
+}
+.banner_image{
+	margin-top: 110px;
+}
+/* start definition*/
+.definition{
+	padding: 100px 0;
+}
+.definition_item{
+	display: inline-block;
+	width: 33.33%;
+	float:left;
+	padding: 0 30px;
+	text-align: center;
+}
+.definition_item h3{
+	text-transform: uppercase;
+	font-family: "ProximaNovaThin", sans-serif;
+	font-size: 24px;
+
+}
+.definition_item p{
+	width: 75%;
+	margin: 0 auto;
+	font-family: "ProximaNovaLight", sans-serif;
+	text-align: justify;
+}
+.definition_item div{
+	margin: 25px 0;
+}
+/**/
+.form{
+	background-color: #f8f6f6;
+	padding: 100px;
+	text-align: center;
+}
+input, textarea{
+	width: 100%;
+	font-size: 18px;
+	border: 2px solid #ffa8a8;
+	border-radius: 15px;
+	text-align: center;
+	margin-bottom: 50px;
+	padding: 10px;
+}
+.form form{
+	width: 60%;
+	display: inline-block;
+}
