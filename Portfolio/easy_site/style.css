@@ -34,6 +34,13 @@ header{
 	height: 100px;
 
 }
+.marker{
+	font-family: "RedRingBlack" sans-serif;
+	font-weight: bolder;
+	color: #fff;
+	font-size: 50px;
+
+}
 .logo{
 	text-align: center;
 }
@@ -51,7 +58,7 @@ header{
 	font-size: 40px;
 }
 .banner_image{
-	margin-top: 110px;
+	margin-top: 10px;
 }
 /* start definition*/
 .definition{
@@ -79,7 +86,7 @@ header{
 .definition_item div{
 	margin: 25px 0;
 }
-/**/
+/* start form*/
 .form{
 	background-color: #f8f6f6;
 	padding: 100px;
@@ -97,4 +104,35 @@ input, textarea{
 .form form{
 	width: 60%;
 	display: inline-block;
+}
+.btn{
+	display: inline-block;
+	text-transform: uppercase;
+	font-size: 18px;
+	height: 45px;
+	border-radius: 10px;
+	border: none;
+	transition: 0.4s;
+	cursor: pointer;
+	padding: 10px 10%;
+	background: linear-gradient(to right,#ffa8a8, #fcff00);
+	background-size: 200% auto;
+}
+.btn:hover {
+	background-position: right center;
+}
+.form h2{
+	font-size: 24px;
+	margin-bottom: 50px;
+}
+/* end form */
+
+/* footer start */
+footer{
+	width: 100%;
+	height: 95px;
+	background: rgba(255, 168, 168, 1);
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 20px;
 }
